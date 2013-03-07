@@ -1,8 +1,8 @@
--> phpmyadmin
-ALTER TABLE `wcddl_sites` ADD `backlink` INT( 1 ) NOT NULL DEFAULT '0'
+	-> phpmyadmin
+	ALTER TABLE `wcddl_sites` ADD `backlink` INT( 1 ) NOT NULL DEFAULT '0'
 
 
--> open funcs.php
+	-> open funcs.php
 	all edits are made in the protected function admin_queue()
 	
 	- find
